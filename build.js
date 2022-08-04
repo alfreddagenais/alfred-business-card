@@ -10,7 +10,7 @@ const path = require('path')
 const options = {
   borderStyle: 'round',
   margin: 1,
-  padding: 1,
+  padding: 1
 }
 
 // Text + chalk definitions
