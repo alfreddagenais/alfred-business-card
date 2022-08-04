@@ -1,6 +1,6 @@
 {
   "name": "alfreddagenais",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Alfred Dagenais personal business card",
   "main": "/bin/card.js",
   "bin": {
