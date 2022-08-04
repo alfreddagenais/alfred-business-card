@@ -1,0 +1,40 @@
+{
+  "name": "alfreddagenais",
+  "version": "1.0.0",
+  "description": "Alfred Dagenais personal business card",
+  "main": "/bin/card.js",
+  "bin": {
+    "alfreddagenais": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfreddagenais/alfred-business-card.git"
+  },
+  "homepage": "https://alfreddagenais.com",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "node build.js",
+    "dev": "npm run build && node ./bin/card.js",
+    "lint": "standard"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Alfred Dagenais <jesuis@alfreddagenais.com> (https://alfreddagenais.com)",
+  "license": "MIT",
+  "files": [
+    "bin/card.js",
+    "bin/output"
+  ],
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.2",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {}
+}
